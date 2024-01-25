@@ -3,14 +3,13 @@ body {
 }
 
 img {
-  max-width: 400px;
-  max-height: 400px;
+  width: 100%;
 }
 
 article {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 400px;
-  margin: auto;
+  margin: 10px;
   text-align: center;
   font-family: Roboto;
 }
@@ -43,8 +42,20 @@ a {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 10px;
+  max-width: 1320px;
+}
+
+.reci{ display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .dif {
   text-decoration: underline;
+  text-align: left;
+}
+
+p{
+    text-align: left;
 }
