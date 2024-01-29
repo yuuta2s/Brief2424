@@ -14,30 +14,42 @@ article {
   font-family: Roboto;
 }
 
+nav{
+  display: flex;
+  justify-content: space-evenly;
+
+}
 .Learn {
   text-align: right;
   text-decoration: underline;
+  color: blue;
 }
 
 #logo {
   width: 5%;
+display: flex;
+justify-content: flex-start;
 }
 
 header {
   background-color: #2a6914;
   padding: 10px;
-}
-nav {
   text-align: center;
   display: flex;
-  justify-self: space-around;
+  justify-content: space-evenly;
 }
+
 
 a {
   text-decoration: none;
   color: black;
-}
+  font-family:'Comfortaa', cursive;
 
+}
+h1{
+  font-family: 'Comfortaa', cursive;
+  font-size: 28px;
+}
 .recettes {
   display: flex;
   justify-content: space-between;
@@ -75,4 +87,10 @@ footer p{
 .contener-footer{
     background-color: #0c4500;
 height: 30vw;
+}
+
+.wrap{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
 }
