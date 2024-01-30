@@ -1,3 +1,8 @@
+
+
+/* STYLE GENERAL */
+
+
 body {
   margin: 0;
 }
@@ -5,6 +10,10 @@ body {
 img {
   width: 100%;
 }
+
+
+
+
 
 article {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -14,13 +23,13 @@ article {
   font-family: Roboto;
 }
 
-nav{
+
+.m-header__navbar{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
   gap: 20px;
-
 }
 .Learn {
   text-align: right;
@@ -34,7 +43,7 @@ display: flex;
 justify-content: flex-start;
 }
 
-header {
+.m-header {
   background-color: #2a6914;
   padding: 10px;
   text-align: center;
@@ -53,7 +62,7 @@ h1{
   font-family: 'Comfortaa', cursive;
   font-size: 28px;
 }
-.recettes {
+.m-container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -61,12 +70,12 @@ h1{
 max-width: 1320px;
 }
 
-.reci{ display: flex;
+.m-big__container{ display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.dif {
+.article__difficulte{
   text-decoration: underline;
   text-align: left;
 }
@@ -89,16 +98,49 @@ footer p{
 
 .contener-footer{
     background-color: #0c4500;
-height: 30vw;
+min-height: 20vw;
 }
 
-.wrap{
+.m-searchbar{
   display: flex;
   justify-content: flex-end;
   margin-top: 20px;
+
 }
 
 article:hover{
   transform: scale(1.1);
 }
 
+.contener-footer{
+  display: flex;
+  justify-content: space-evenly ;
+}
+
+.btn{
+  background-color: yellowgreen;
+}
+
+@media screen and (max-width: 400px) {
+  h1{
+    color:#0c4500;
+  }
+  
+}
+
+.Articlebadge {
+  background-color: #2a6914;
+  color: white;
+  position: absolute;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 3px 7px;
+  z-index: 1;
+}
+
+.articlebadge-contener {
+  display: flex;
+  justify-content: flex-end;
+}
