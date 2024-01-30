@@ -11,7 +11,10 @@ img {
   width: 100%;
 }
 
-
+h3{
+  font-family: 'Comfortaa', sans-serif;
+  color: #0c4500;
+}
 
 
 
@@ -31,10 +34,10 @@ article {
   align-items: center;
   gap: 20px;
 }
-.Learn {
+.learn {
   text-align: right;
   text-decoration: underline;
-  color: blue;
+  color: #0c4500;
 }
 
 #logo {
