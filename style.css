@@ -8,7 +8,7 @@ img {
 
 article {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 400px;
+  flex: 1  1 350px;
   margin: 10px;
   text-align: center;
   font-family: Roboto;
@@ -16,7 +16,10 @@ article {
 
 nav{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
 
 }
 .Learn {
@@ -55,7 +58,7 @@ h1{
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 10px;
-  max-width: 1320px;
+max-width: 1320px;
 }
 
 .reci{ display: flex;
@@ -94,3 +97,8 @@ height: 30vw;
   justify-content: flex-end;
   margin-top: 20px;
 }
+
+article:hover{
+  transform: scale(1.1);
+}
+
