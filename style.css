@@ -1,5 +1,5 @@
 
-
+@import 'Brief2424/framework.css' 
 /* STYLE GENERAL */
 
 
@@ -7,15 +7,16 @@ body {
   margin: 0;
 }
 
+
 img {
   width: 100%;
 }
+
 
 h3{
   font-family: 'Comfortaa', sans-serif;
   color: #0c4500;
 }
-
 
 
 article {
@@ -27,32 +28,7 @@ article {
 }
 
 
-.m-header__navbar{
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 20px;
-}
-.learn {
-  text-align: right;
-  text-decoration: underline;
-  color: #0c4500;
-}
-
-#logo {
-  width: 5%;
-display: flex;
-justify-content: flex-start;
-}
-
-.m-header {
-  background-color: #2a6914;
-  padding: 10px;
-  text-align: center;
-  display: flex;
-  justify-content: space-evenly;
-}
+p{ text-align: left;}
 
 
 a {
@@ -65,6 +41,53 @@ h1{
   font-family: 'Comfortaa', cursive;
   font-size: 28px;
 }
+
+/* STYLE HEADER */
+
+
+#logo {
+  width: 5%;
+display: flex;
+justify-content: flex-start;
+}
+
+
+.m-header__navbar{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.m-header {
+  background-color: #2a6914;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+
+.learn {
+  text-align: right;
+  text-decoration: underline;
+  color: #0c4500;
+}
+
+
+
+
 .m-container {
   display: flex;
   justify-content: space-between;
@@ -83,7 +106,6 @@ max-width: 1320px;
   text-align: left;
 }
 
-p{ text-align: left;}
 
 footer p{
     text-align: left;
