@@ -8,7 +8,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="framework.css">
   <link rel="stylesheet" href="style.css">
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -26,149 +28,151 @@
       <a href="recettes" class="m-header__a">Recettes</a>
       <a href="tendances" class="m-header__a">Tendances</a>
     </nav>
-    <div class="m-searchbar">
+    <div class="m-searchbar d-flex jc-fe">
       <div class="m-searchbar__btn">
         <input type="text" class="m-searchTerm" placeholder="What are you looking for?">
         <button type="submit" class="searchButton">
           <i class="fa fa-search" alt="loupe"></i>
         </button>
+        <a href="register.html" class="register-anchor"><i class="fa-solid fa-user" alt="bonhomme pour inscrire"></i></a>
       </div>
     </div>
   </header>
   <main>
-    <section class="m-big__container">
+    <section class="m-big__container d-flex fd-c">
       <h1>NOS RECETTES</h1>
-      <div class="m-container mw-1320">
+      <div class="m-container mw-1320 d-flex jc-sb f-ww"> 
+         <!-- jai mod le nom des classes avec le framework.css..cest vrmt + logique !-->
 
-        <article class="box"> <div class="articlebadge-contener">
+        <article class="box"> <div class="articlebadge-contener d-flex jc-fe">
           <p class="Articlebadge">mooonstre</p> 
         </div>
           <img src="https://i.postimg.cc/MGLY6Jv3/sk-u-VPV-n-V17-Tw-unsplash.jpg" alt="un burger">
          
           <h3 class="titre recette">Double burger miam</h3>
-          <h4 class="article__difficulte">Difficulté:
+          <h4 class="article__difficulte ta-l">Difficulté:
             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
           </h4>
           <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem aliquam dolorem
             eligendi odio impedit adipisci deleniti atque suscipit, voluptas accusantium, in assumenda obcaecati
             omnis? Libero ad inventore dicta</p>
-          <h4 class="learn">Learn more</h4>
+          <h4 class="learn td-u ta-r">Learn more</h4>
         </article>
 
         <article class="box">
-          <div class="articlebadge-contener">
+          <div class="articlebadge-contener d-flex jc-fe">
             <p class="Articlebadge">asie</p> 
           </div>
           <img src="https://i.postimg.cc/mgpnfhp4/vinicius-benedit-1-GEAA8q3wk-unsplash-1.jpg" alt="des Sushis">
 
           <h3 class="titre recette">Sushis saumon</h3>
-          <h4 class="article__difficulte">Difficulté:
+          <h4 class="article__difficulte ta-l">Difficulté:
             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
               class="fa-solid fa-star"></i>
           </h4>
           <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt maiores quod nisi
             pariatur. Vitae culpa eaque commodi laudantium deleniti impedit cupiditate minus, possimus, in sequi
             consectetur! Iusto exercitationem</p>
-          <h4 class="learn">Learn more</h4>
+          <h4 class="learn td-u ta-r">Learn more</h4>
         </article>
         <article class="box">
-          <div class="articlebadge-contener">
+          <div class="articlebadge-contener d-flex jc-fe">
             <p class="Articlebadge">viande</p> 
           </div>
           <img src="https://i.postimg.cc/bwMj06h1/dolores-preciado-7a-Ad6mk-NE-unsplash.jpg" alt="un Kebab">
 
           <h3 class="titre recette">Kebab</h3>
-          <h4 class="article__difficulte"> Difficulté: <i class="fa-solid fa-star"><i class="fa-solid fa-star"></i><i
+          <h4 class="article__difficulte ta-l"> Difficulté: <i class="fa-solid fa-star"><i class="fa-solid fa-star"></i><i
                 class="fa-solid fa-star"></i></i></h4>
           <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolore minima adipisci
             voluptates. Quae, doloremque earum deleniti fugit iste enim, voluptas beatae corrupti accusamus odit,
             delectus ducimus </p>
           </p>
-          <h4 class="learn">Learn more</h4>
+          <h4 class="learn td-u ta-r">Learn more</h4>
         </article>
 
         <article class="box">
-          <div class="articlebadge-contener">
+          <div class="articlebadge-contener d-flex jc-fe">
             <p class="Articlebadge">healthy</p> 
           </div>
           <img src="https://i.postimg.cc/NM9vFtbK/max-mota-XBxk-K9n-I6-0-unsplash.jpg" alt="salade crevette">
           <h3 class="titre recette"> Salade crevette</h3>
-          <h4 class="article__difficulte">Difficulté: <i class="fa-solid fa-star"></i></h4>
+          <h4 class="article__difficulte ta-l">Difficulté: <i class="fa-solid fa-star"></i></h4>
           <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, natus voluptates.
             Tempore expedita dolor illo, saepe perferendis fuga recusandae ut ex quos sit, autem iusto eligendi,
             doloribus veniam blanditiis</p>
-          <h4 class="learn">Learn more</h4>
+          <h4 class="learn td-u ta-r">Learn more</h4>
         </article>
 
 
         <article class="box">
-          <div class="articlebadge-contener">
+          <div class="articlebadge-contener d-flex jc-fe">
             <p class="Articlebadge">sucré</p> 
           </div>
           <img src="https://i.postimg.cc/Qx7FsmqJ/m-w-v-L6-XDSdvmec-unsplash.jpg" alt="cupcakes">
           <h3 class="titre recette"> Cupcakes</h3>
-          <h4 class="article__difficulte">Difficulté: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+          <h4 class="article__difficulte ta-l">Difficulté: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
               class="fa-solid fa-star"></i></h4>
           <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae sapiente
             accusantium facilis nulla illum doloribus iste ratione aliquid aliquam veritatis quidem veniam
             perferendis, officiis libero excepturi blanditiis </p>
-          <h4 class="learn">Learn more</h4>
+          <h4 class="learn td-u ta-r">Learn more</h4>
         </article>
 
 
         <article class="box">
-          <div class="articlebadge-contener">
+          <div class="articlebadge-contener d-flex jc-fe">
             <p class="Articlebadge">asie</p> 
           </div>
           <img src="https://i.postimg.cc/sXf6SKck/kabir-cheema-69a-G6-It7-Xdw-unsplash.jpg" alt="Samosas">
           <h3 class="titre recette"> Samosas</h3>
-          <h4 class="article__difficulte">Difficulté: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          <h4 class="article__difficulte ta-l">Difficulté: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
           </h4>
           <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quas, sit maiores illo
             dolorum maxime consequatur blanditiis doloremque, aliquid vero fugit placeat beatae aliquam! Fugit animi
             praesentium hdhdhdhddhdh</p>
-          <h4 class="learn">Learn more</h4>
+          <h4 class="learn td-u ta-r">Learn more</h4>
         </article>
 
 
         <article class="box">
-          <div class="articlebadge-contener">
+          <div class="articlebadge-contener d-flex jc-fe">
             <p class="Articlebadge">mocktail</p> 
           </div>
           <img src="https://i.postimg.cc/wjwMkjc7/sk-Mzs-Wr-M8-DSCU-unsplash.jpg" alt="mojito">
           <h3 class="titre recette"> Mojito</h3>
-          <h4 class="article__difficulte">Difficulté: <i class="fa-solid fa-star"></i></h4>
+          <h4 class="article__difficulte ta-l">Difficulté: <i class="fa-solid fa-star"></i></h4>
           <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quod. Neque vel
             recusandae deleniti veniam quam in at porro? Cupiditate quae modi at? Natus, nihil. Fugiat repudiandae aut
             excepturi corrupti.</p>
-          <h4 class="learn">Learn more</h4>
+          <h4 class="learn td-u ta-r">Learn more</h4>
         </article>
 
         <article class="box">
-          <div class="articlebadge-contener">
+          <div class="articlebadge-contener d-flex jc-fe">
             <p class="Articlebadge">asie</p> 
           </div>
           <img src="https://i.postimg.cc/GtXMcVyM/hari-panicker-2t28-Ix-STq-F4-unsplash.jpg" alt="des ramen">
           <h3 class="titre recette"> Ramen</h3>
-          <h4 class="article__difficulte">Difficulté: <i class="fa-solid fa-star"></i></h4>
+          <h4 class="article__difficulte ta-l">Difficulté: <i class="fa-solid fa-star"></i></h4>
           <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat explicabo commodi,
             facilis id, amet quasi cum mollitia quae aperiam nihil ea sed aut. Quo repellat eos delectus ipsa,
             perspiciatis eius meow meow meow?</p>
-          <h4 class="learn">Learn more</h4>
+          <h4 class="learn td-u ta-r">Learn more</h4>
         </article>
 
         <article class="box">
-          <div class="articlebadge-contener">
+          <div class="articlebadge-contener d-flex jc-fe">
             <p class="Articlebadge">poisson</p> 
           </div>
           <img src="https://i.postimg.cc/N0GwbqxM/ca-creative-bp-PTl-XWTOvg-unsplash.jpg" alt="du saumon">
           <h3 class="titre recette"> Saumon miam</h3>
-          <h4 class="article__difficulte">Difficulté: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+          <h4 class="article__difficulte ta-l">Difficulté: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
               class="fa-solid fa-star"></i></h4>
           <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, tenetur.
             Necessitatibus eos iure nobis unde nesciunt, vitae sed adipisci dolorem neque ea sequi. Culpa
             exercitationem, rem a deserunt ipsum ea meow.</p>
-          <h4 class="learn">Learn more</h4>
+          <h4 class="learn td-u ta-r">Learn more</h4>
         </article>
 
       </div>
@@ -177,7 +181,7 @@
 
   <footer>
     <div class="imgdiv"></div>
-    <div class="contener-footer">
+    <div class="contener-footer d-flex jc-se">
       <div class="acceuil">
         <ul>
           <li> <a href="#">Accueil</a></li>

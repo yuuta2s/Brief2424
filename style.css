@@ -1,5 +1,4 @@
 
-@import 'Brief2424/framework.css' 
 /* STYLE GENERAL */
 
 
@@ -70,7 +69,9 @@ justify-content: flex-start;
 }
 
 
-
+.register-anchor{
+  align-items: left;
+}
 
 
 
@@ -80,8 +81,6 @@ justify-content: flex-start;
 
 
 .learn {
-  text-align: right;
-  text-decoration: underline;
   color: #0c4500;
 }
 
@@ -89,28 +88,22 @@ justify-content: flex-start;
 
 
 .m-container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
   gap: 10px;
-max-width: 1320px;
 }
 
-.m-big__container{ display: flex;
-    flex-direction: column;
+.m-big__container{ 
     align-items: center;
 }
 
-.article__difficulte{
-  text-decoration: underline;
-  text-align: left;
-}
+
 
 
 footer p{
     text-align: left;
     margin: 0;
 }
+
+
 .imgdiv{
     background-image: url(images/cooking.svg);
     background-repeat: no-repeat;
@@ -127,8 +120,6 @@ min-height: 20vw;
 }
 
 .m-searchbar{
-  display: flex;
-  justify-content: flex-end;
   margin-top: 20px;
 
 }
@@ -137,10 +128,6 @@ article:hover{
   transform: scale(1.1);
 }
 
-.contener-footer{
-  display: flex;
-  justify-content: space-evenly ;
-}
 
 .btn{
   background-color: yellowgreen;
@@ -163,9 +150,4 @@ article:hover{
   margin: 10px;
   padding: 3px 7px;
   z-index: 1;
-}
-
-.articlebadge-contener {
-  display: flex;
-  justify-content: flex-end;
 }

@@ -2,3 +2,61 @@
     max-width: 1320px;
 }
 
+.d-flex{
+    display: flex;
+}
+
+
+
+/*ANCHOR - Justify Content*/
+
+.jc-sb{
+    justify-content: space-between;
+}
+
+.jc-sa{
+    justify-self: space-around;
+}
+
+.jc-se{
+    justify-content: space-evenly;
+}
+
+.jc-fe{
+    justify-content: flex-end;
+}
+
+.jc-fs{
+    justify-content: flex-start;
+}
+
+/* ANCHOR flex wrap */
+.f-ww{
+    flex-wrap: wrap;
+}
+
+.f-wnw{
+    flex-wrap: nowrap;
+}
+
+
+.ta-c{
+    text-align: center;
+}
+.ta-l{
+    text-align: left;
+}
+.ta-r{
+    text-align: right;
+}
+.td-u{
+    text-decoration: underline;
+}
+
+.td-nn{
+    text-decoration: none;
+}
+
+.fd-c{
+    flex-direction: column;
+}
