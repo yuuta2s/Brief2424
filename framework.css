@@ -1,6 +1,9 @@
 .mw-1320{
     max-width: 1320px;
 }
+.mnh-368{
+    min-height: 368px;
+}
 
 .d-flex{
     display: flex;

@@ -46,15 +46,10 @@ h1{
 
 #logo {
   width: 5%;
-display: flex;
-justify-content: flex-start;
 }
 
 
 .m-header__navbar{
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
   align-items: center;
   gap: 20px;
 }
@@ -72,12 +67,6 @@ justify-content: flex-start;
 .register-anchor{
   align-items: left;
 }
-
-
-
-
-
-
 
 
 .learn {
@@ -137,7 +126,9 @@ article:hover{
   h1{
     color:#0c4500;
   }
-  
+  .imgdiv{
+    position: top;
+  }
 }
 
 .Articlebadge {
@@ -150,4 +141,9 @@ article:hover{
   margin: 10px;
   padding: 3px 7px;
   z-index: 1;
+}
+
+.form__field{
+  width: 100%;
+
 }

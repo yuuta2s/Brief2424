@@ -1,0 +1,99 @@
+body {
+    font-family: 'Roboto';
+    margin: 0;
+    width: 100%;
+  }
+  
+  .login-panel {
+      width: 50%;
+      height: 400px;
+      background-color: #fff;
+  }
+  
+  .login-panel div {
+      width: 50%;
+      height: 100%;
+      float: left;
+  }
+  .big-regi{
+    align-items: center;
+  }
+  
+  .left-side {
+      background:
+           url("https://i.postimg.cc/rw7fLyZ8/vernon-raineil-cenzon-QAkqxr-H6mvc-unsplash.jpg"
+      );
+      background-size: cover;
+  }
+  
+  .right-side {
+      padding: 50px 25px;
+      box-sizing: border-box;
+  }
+  
+  .right-side h1 {
+      text-transform: uppercase;
+      margin: 0;
+  }
+  
+  .right-side p {
+      font-size: 10px;
+      color: #888;
+      margin-top: 0;
+      margin-bottom: 20px;
+      text-transform: lowercase;
+  }
+  
+  .right-side input {
+      margin: 10px 0;
+      padding: 2.5px 0;
+      width: 100%;
+      border: 0;
+      border-bottom: 2px solid #888;
+  }
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures the main takes at least the full height of the viewport */
+  }
+  
+  
+  input.submit-btn {
+      border: 2px solid #000;
+      border-radius: 15px;
+      width: 100px;
+      background-color: transparent;
+      font-size: 14px;
+      font-weight: 900;
+      padding: 5px;
+  }
+  input.submit-btn:hover {
+    background:
+      linear-gradient(
+        120deg,
+        rgb(4, 81, 13),
+        rgb(7, 76, 4)
+      );
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 360px) {
+    .login-panel {
+      width: 70%;
+      height: 400px;
+      background-color: #fff;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    .login-panel {
+      width: 70%;
+      height: 500px;
+      background-color: #fff;
+    }}
+
+    .form__field{
+      width: 100%;
+    }

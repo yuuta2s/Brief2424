@@ -1,7 +1,9 @@
-LETS COOK * REALISATION
+#LETS COOK * REALISATION
+
+Dossier du brief 24/01/2024
 
 creation du html et integration des logos et images 
-
+et
 changement des noms de classes pour des classes utilitaires et refactoring:
 
 d-flex
@@ -23,3 +25,4 @@ fd-rwr
 fd-rw
 
 
+creation de la page inscription et liaison ^^'
