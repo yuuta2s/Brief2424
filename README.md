@@ -26,3 +26,7 @@ fd-rw
 
 
 creation de la page inscription et liaison ^^'
+
+petite galere pour mettre le form en responsive mais j'ai reussi 
+
+jai lié les trois pages sur l
